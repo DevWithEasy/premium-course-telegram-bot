@@ -11,5 +11,8 @@
             "src": "/(.*)",
             "dest": "index.js"
         }
-    ]
+    ],
+    "env": {
+        "BOT_TOKEN" : "6227755613:AAGeXPXpEq4icdGbAofcfYuq11EzM_0O-ng"
+    }
 }
