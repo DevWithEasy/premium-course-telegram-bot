@@ -1,7 +1,7 @@
 require('dotenv').config()
 
-const express = require('express')
-const app = express()
+// const express = require('express')
+// const app = express()
 
 const {Telegraf} = require('telegraf')
 const courses = require('./data/courses')
@@ -195,10 +195,10 @@ bot.hears('Remove Keyboard',(ctx)=>{
 
 bot.launch()
 
-app.get('/',(req,res)=>{
-    res.send('Premium Course Free Bot Running')
-})
+// app.get('/',(req,res)=>{
+//     res.send('Premium Course Free Bot Running')
+// })
 
-app.listen(process.env.PORT || 3000,()=>{
-    console.log('Bot Server running')
-})
+// app.listen(process.env.PORT || 3000,()=>{
+//     console.log('Bot Server running')
+// })
