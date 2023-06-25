@@ -29,12 +29,13 @@ bot.help((ctx) => {
 })
 
 bot.command('category', (ctx) => {
+    const categories = getCategories(courses)
     ctx.telegram.sendMessage(
         ctx.chat.id,
         'Courses Categories',
         {
             reply_markup: {
-                inline_keyboard: getCategories(courses)
+                inline_keyboard: categories
             }
         }
     )
@@ -176,7 +177,7 @@ bot.hears('About Bot',(ctx)=>{
     ctx.deleteMessage()
     ctx.telegram.sendMessage(
         ctx.chat.id,
-        ''
+        'About'
     )
 })
 
