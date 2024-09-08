@@ -1,0 +1,60 @@
+const course_videoedit = [
+    {
+        id : 79,
+        name : 'Professional Video Editing with Premier Pro',
+        category : 'Video Editing',
+        source : 'Udemi',
+        course_link : 'https://drive.google.com/drive/folders/1IUyCpp6NL4yxNXnfm-BjsmYAoThm3N7Z',
+        desciption : '',
+    },
+    {
+        id : 70,
+        name : 'Prmiere Pro ভিডিও এডিটিং কোর্স ',
+        category : 'Video Editing',
+        source : '',
+        course_link : 'https://drive.google.com/drive/folders/1IUyCpp6NL4yxNXnfm-BjsmYAoThm3N7Z?fbclid=IwAR1uJcPyL3QdgZyCyhWHmO4EfytTooerKrsZDwbQoT8HZt8_NhVGbFdII_0',
+        desciption : '',
+    },
+    {
+        id : 36,
+        name : ' AutoDesk Maya 3D Animations & Visual Effects for Beginners',
+        category : 'Video Editing',
+        source : 'Udemi',
+        course_link : 'https://mega.nz/#F!WTYEmaJJ!pb_0M9fMvy1eqTHS8DI-5Q',
+        desciption : '',
+    },
+    {
+        id : 31,
+        name : 'After Effects Create an Intro Video',
+        category : 'Video Editing',
+        source : 'Udemi',
+        course_link : 'https://mega.nz/#F!mWxVEDxa!OxHw0aOPBKtNB8vBBYiovA',
+        desciption : '',
+    },
+    {
+        id : 27,
+        name : 'Professional Video Editing with Adobe Premiere Pro BANGLA',
+        category : 'Video Editing',
+        source : '',
+        course_link : 'https://mega.nz/folder/dwFmjTiJ#afFRzs4iTyqgtgYPgqjWfg',
+        desciption : '',
+    },
+    {
+        id : 28,
+        name : 'Mayajaal Youtube Secrets',
+        category : 'Video Editing',
+        source : 'Mayajal',
+        course_link : 'https://mega.nz/folder/IAIDnYZa#n_p5xRAAsPvfReBhEXKSPg',
+        desciption : '',
+    },
+    {
+        id : 20,
+        name : 'Technical Bangla Video Editing Course',
+        category : 'Video Editing',
+        source : 'Technical Bangla',
+        course_link : 'https://mega.nz/folder/9oU3SSxS#r1tgWqSv0lV8R8esjhOPnA',
+        desciption : '',
+    },
+]
+
+module.exports = course_videoedit

@@ -1,0 +1,60 @@
+const course_carrer = [
+    {
+        id : 78,
+        name : '250 + Microsoft Word File Resource Pack',
+        category : 'Career Guidelines',
+        source : '',
+        course_link : 'https://drive.google.com/drive/u/0/folders/12DLylixhmvBqnIDX8bdtg2zEssluLEe_',
+        desciption : '',
+    },
+    {
+        id : 73,
+        name : 'Eshikhon Microsoft Excel Full Course',
+        category : 'Career Guidelines',
+        source : 'Eshikhon',
+        course_link : 'https://drive.google.com/drive/folders/1-g11Q2elvu8TsQni2psg0O01dE0Ae8Jx',
+        desciption : '',
+    },
+    {
+        id : 61,
+        name : 'Advance Mobile Phone Servicing & Software Basic Course- Ghoori learning',
+        category : 'Career Guidelines',
+        source : 'Ghoori Learning',
+        course_link : 'https://drive.google.com/drive/folders/1dgWE1z12nwPXnX1o-aJyNqbkVkS2LQMf',
+        desciption : '',
+    },
+    {
+        id : 15,
+        name : 'Mobile Photography by Ghoori-Learning',
+        category : 'Career Guidelines',
+        source : 'Ghoori Learning',
+        course_link : 'https://mega.nz/folder/7AJwzToJ#y35CWo4LeV0w3lMAiZPRyg',
+        desciption : '',
+    },
+    {
+        id : 16,
+        name : 'Online Market Place A-Z',
+        category : 'Career Guidelines',
+        source : 'Freelancing',
+        course_link : 'https://mega.nz/folder/2RQ0gZRT#04x_xOtrOW4BKbTzjU_iVg',
+        desciption : '',
+    },
+    {
+        id : 2,
+        name : 'চাকরি জীবনে প্রস্তুতি Course By Solaiman Shukhon',
+        category : 'Career Guidelines',
+        source : '10 Minutes Schools',
+        course_link : 'https://mega.nz/folder/tl1UCYRI#Ns3QPGH6aZUIb-58RGfNhA',
+        desciption : '',
+    },
+    {
+        id : 3,
+        name : 'Graphics Disigne With PowerPoint Course By Anisha Saiyara',
+        category : 'Career Guidelines',
+        source : '10 Minutes Schools',
+        course_link : 'https://mega.nz/folder/Z0R3GIzQ#1oIgtlsrB5r3-lEhzwBJCQ',
+        desciption : '',
+    },
+]
+
+module.exports = course_carrer

@@ -1,15 +1,16 @@
 const startMessage=(ctx)=>{
     ctx.telegram.sendMessage(
         ctx.chat.id,
-        `Welcome to Premium Coures Bot.`,
+        `আমাদের বটে আপনাকে স্বাগতম।
+        প্রিমিয়াম কোর্স ফ্রি বটে, আপনি পেইড এবং ফ্রি কোর্স গুলো ডাউনলোডের লিঙ্ক পাবেন।`,
         {
             reply_markup :{
                 inline_keyboard : [
                     [
-                        {text : 'Courses Category', callback_data : 'Category'}
+                        {text : 'কোর্স ক্যাটাগরি দেখুন', callback_data : 'Category'}
                     ],
                     [
-                        {text : 'About Bot', callback_data : 'About'}
+                        {text : 'বট সম্পর্কে', callback_data : 'About'}
                     ]
                 ]
             }
@@ -18,12 +19,19 @@ const startMessage=(ctx)=>{
     
 }
 
-const helpMessage = `Welcome to Premium Coures Bot.
+const helpMessage = `প্রিমিয়াম কোর্স ফ্রি বট.
+বটের প্রথমে যেতে,
 /start - start this bot
-/help - help this bot
+
+কোর্স ক্যাটাগরি দেখতে,
 /category - courses category
-/source - created the course 
-/courses <space> <cousrse title> - find course
+
+কোন কোর্স খুজতে,
+/courses <space> <cousrse title>
+উদাহরনঃ /courses Python
+
+হেল্প পেতে,
+/help - help this bot
 `
 
 module.exports = {

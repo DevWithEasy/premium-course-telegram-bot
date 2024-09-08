@@ -1,0 +1,77 @@
+const course_Freelancing = [
+    {
+        id : 75,
+        name : 'Freelancing Course A to Z',
+        category : 'Freelancing',
+        source : 'Udemi',
+        course_link : 'https://mega.nz/folder/8hc3WIha#1qOy7YwAJLhNd97G4WrHQw',
+        desciption : '',
+    },
+    {
+        id : 68,
+        name : 'Fiverr Marketing Bangla',
+        category : 'Freelancing',
+        source : '',
+        course_link : 'https://mega.nz/folder/zmw03KAL#wAhwpESnSPdJNysR64Oc2Q',
+        desciption : 'https://drive.google.com/drive/u/0/folders/1ZKM0pEdKskoeFOe_hTx746QvNT4B3JL7?fbclid=IwAR2pnsgmkLzSVNqRep9leITrj4OGF_3SwOcVN4xwrjHJjmcBuxb0cEdIk',
+    },
+    {
+        id : 46,
+        name : 'How to Succeed on Fiverr by Doing Freelance Work',
+        category : 'Freelancing',
+        source : 'Udemi',
+        course_link : 'https://mega.nz/#F!naBwkKxa!qp-NsJTlaelL0XjYFs8FUg',
+        desciption : '',
+    },
+    {
+        id : 41,
+        name : 'Facebook Marketing Next Level List Building Strategies',
+        category : 'Freelancing',
+        source : 'Udemi',
+        course_link : 'https://mega.nz/#F!fGYQRYLT!1CCzvwijWCVAF-91XKqPUg',
+        desciption : '',
+    },
+    {
+        id : 29,
+        name : 'লিংকডইন মার্কেটিং',
+        category : 'Freelancing',
+        source : '',
+        course_link : 'https://mega.nz/folder/9MZCDbgQ#KzNMR3qnu94E9n95BZMyeQ',
+        desciption : '',
+    },
+    {
+        id : 22,
+        name : 'Learn Digital Maketing with Logo Card Bannner with Fiverr Gouidlines ',
+        category : 'Freelancing',
+        source : '',
+        course_link : 'https://mega.nz/folder/8hc3WIha#1qOy7YwAJLhNd97G4WrHQw',
+        desciption : '',
+    },
+    {
+        id : 19,
+        name : 'Shikbo ami CPA',
+        category : 'Freelancing',
+        source : 'Shikhabo',
+        course_link : 'https://mega.nz/folder/mMRw2LCZ#s3rvao0Fu2ruzdr3gjEB-w',
+        desciption : '',
+    },
+    {
+        id : 10,
+        name : 'Insta Pro - A Complete Advance Guideline For A Pro Marketer',
+        category : 'Freelancing',
+        source : 'Instra Pro',
+        course_link : 'https://mega.nz/folder/yQRiQRTY#9eSILLTEYFTW21Q1YbdBPg',
+        desciption : '',
+    },
+    {
+        id : 11,
+        name : 'Complete CPA Marketing Program',
+        category : 'Freelancing',
+        source : 'IT Farm BD',
+        course_link : 'https://mega.nz/folder/DBIDFISB#aQ9qEIYkIS0IXWimH57qBw',
+        desciption : '',
+    },
+    
+]
+
+module.exports = course_Freelancing
